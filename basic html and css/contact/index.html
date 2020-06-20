@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Our First Web Page</title>
+        <link rel="shortcut icon" href="../images/favicon.png">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+   
+    </head>
+    <body>
+        <header class="fixed-bar"><h1 class="page-title">Meet vora</h1></header>
+        <nav>
+            <ul class="navigation">
+                <Li><a href="../index.html" >Home</a></Li>
+                <li> contact </a></li>
+               
+            </ul>
+        </nav>
+        <main>
+            <form class="form">
+                
+                <label for="input-name">Name</label>
+                <input type="text" name="name" class="form-input" id="input-name" oninput="checkInput()">
+                <label for="input-mail">Mail</label>
+                <input type="text" name="mail" class="form-input" id="input-mail" oninput="checkInput()">
+                <label for="input-message">Your Message</label>
+            <textarea name="message" id="input-message" cols="30" rows="10" class="from-input" oninput="checkInput()"></textarea>
+                <button type="submit" class="submit-button" disabled>Submit</button>
+            </form>
+        
+        </main>
+        <script src="main.js"></script>
+</body>
+</html>
